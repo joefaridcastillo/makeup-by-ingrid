@@ -54,7 +54,7 @@ nav a{
 nav a:hover{
   background: lightpink;
   transition: 0.5s;
- 
+  color: #ffff
 }
 
 #section-1{
@@ -201,7 +201,7 @@ nav a:hover{
   margin-top: 0px
 }
 .title-3 h1{
-  color: lightpink;
+color: lightpink;
  padding: 100px 0 60px 0;
  font-size: 50px;
  text-align: center;
@@ -218,15 +218,16 @@ nav a:hover{
   padding: 20px;
 }
 
-/*test */
-
-#myImg {
+#myImg  {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3;
 }
 
-#myImg:hover {opacity: 0.7;}
+#myImg:hover {
+  opacity: 0.7;
+  
+}
 
 #myImgOne {
   border-radius: 5px;
@@ -236,6 +237,46 @@ nav a:hover{
 
 #myImgOne:hover {opacity: 0.7;}
 
+#myImgTwo {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3;
+}
+
+#myImgTwo:hover {opacity: 0.7;}
+
+#myImgThree {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3;
+}
+
+#myImgThree:hover {opacity: 0.7;}
+
+#myImgFour {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3;
+}
+
+#myImgFour:hover {opacity: 0.7;}
+
+#myImgFive {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3;
+}
+
+#myImgFive:hover {opacity: 0.7;}
+
+
+#myImgSix {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3;
+}
+
+#myImgSix:hover {opacity: 0.7;}
 .modal{
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -302,6 +343,50 @@ nav a:hover{
   text-decoration: none;
   cursor: pointer;
 }
+
+
+#section-4{
+  background-color: #E6E6FA;
+  height: 100vh;
+  margin-top: 250px;
+}
+.title-4 h1{
+  color: #de5d83;
+ padding: 100px 0 60px 0;
+ font-size: 50px;
+ text-align: center;
+}
+
+.logoSection img{
+  width: 700px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.btnBooking{
+  width: 100px;
+  height: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  background-color: lightpink;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+.logoSection-1 img{
+  width: 700px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 100px;
+}
+
+
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
