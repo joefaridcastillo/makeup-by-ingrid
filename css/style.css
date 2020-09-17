@@ -12,14 +12,16 @@ html {
   width: 100%;
   transition: 0.3s ease-in-out;
   height: 100px;
- 
+ background-color: #fff;
 }
 
+
+}
 nav{
   width: 100%;
-  background-color: #fff;
   overflow: auto;
   margin:0;
+  position: fixed;
 }
 ul{
   padding: 0;
@@ -44,7 +46,8 @@ nav a{
   display: inline-block;
   padding: 30px 20px;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
   color: #000;
   position: relative;
   left: 300px;
@@ -54,7 +57,10 @@ nav a{
 nav a:hover{
   background: lightpink;
   transition: 0.5s;
-  color: #ffff
+  color: #ffff;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 #section-1{
@@ -77,10 +83,11 @@ nav a:hover{
 }
 .title h1{
   font-size: 50px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 30px;
   text-align: center;
   margin-top: 100px;
+  font-weight: bold;
 }
 .title p{
   padding: 30px;
@@ -92,12 +99,13 @@ nav a:hover{
 .btn {
   width: 100px;
   height: 50px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   background-color: lightpink;
   border-radius: 10px;
   text-align: center;
   margin: 0 auto;
+  border: none;
 }
 
 .btn:hover{
@@ -129,6 +137,8 @@ nav a:hover{
  padding: 100px 0 60px 0;
  font-size: 50px;
  text-align: center;
+ font-family: 'Roboto', sans-serif;
+ font-weight: bold;
 }
 
 .container-2 {
@@ -149,12 +159,15 @@ nav a:hover{
 .serviceOne h1{
   text-align: center;
   padding-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 .serviceOne p{
   text-align: center;
   line-height: 25px;
   font-size: 14px;
   font-family: fantasy;
+  font-family: 'Roboto', sans-serif;
 }
 .serviceTwo{
  
@@ -168,12 +181,14 @@ nav a:hover{
 
 .serviceTwo h1{
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 .serviceTwo p{
   text-align: center;
   line-height: 25px;
   font-size: 14px;
-  font-family: fantasy;
+  font-family: 'Roboto', sans-serif;
 }
 .serviceThree{
   
@@ -186,13 +201,15 @@ nav a:hover{
 }
 .serviceThree h1{
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 .serviceThree p{
   text-align: center;
   line-height: 25px;
   font-size: 14px;
-  font-family: fantasy;
+  font-family: 'Roboto', sans-serif;
 }
 
 #section-3{
@@ -205,6 +222,8 @@ color: lightpink;
  padding: 100px 0 60px 0;
  font-size: 50px;
  text-align: center;
+ font-family: 'Roboto', sans-serif;
+ font-weight: bold;
 }
 
 .container-3{
@@ -346,15 +365,17 @@ color: lightpink;
 
 
 #section-4{
-  background-color: #E6E6FA;
+  background-color: #333;
   height: 100vh;
   margin-top: 250px;
 }
 .title-4 h1{
-  color: #de5d83;
+  color: #FFFF;
  padding: 100px 0 60px 0;
  font-size: 50px;
  text-align: center;
+ font-family: 'Roboto', sans-serif;
+ font-weight: bold;
 }
 
 .logoSection img{
@@ -369,12 +390,20 @@ color: lightpink;
 .btnBooking{
   width: 100px;
   height: 50px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   background-color: lightpink;
   border-radius: 10px;
+  border: none;
   text-align: center;
-  margin: 0 auto;
+  position: absolute;
+  right: 600px;
+  cursor: pointer;
+}
+.btnBooking:hover{
+  background-color: #FFFF;
+  color: black;
+  transition: 0.3s ease-in;
 }
 .logoSection-1 img{
   width: 700px;
@@ -384,10 +413,148 @@ color: lightpink;
   margin-right: auto;
   width: 50%;
   margin-top: 100px;
+ 
+}
+.logoApp{
+  margin-bottom: 50px;
 }
 
+#myFooter{
+  background-color: lightpink;
+  height: 70px;
+  margin: 0;
+}
+#myFooter p{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+/*FORM */
 
 
+.form-style-5{
+	max-width: 500px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+}
+.form-style-5 fieldset{
+	border: none;
+}
+.form-style-5 legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.form-style-5 label {
+	display: block;
+	margin-bottom: 8px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+  font-family: 'Roboto', sans-serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#8a97a0;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+	background: #d2d9dd;
+}
+.form-style-5 select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.form-style-5 .number {
+	background:lightpink;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: lightpink;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid lightpink;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+	background: lightpink;
+}
+#about{
+  padding-top: 20px;
+}
+.radioGroup label{
+  display: inline-block;
+  margin: 0 0.2em;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.radioGroup label input[type="radio"]{
+  margin: 0.5em auto;
+}
+#serviceQuestion{
+  padding-top: 20px;
+}
+#btnForm{
+  cursor: pointer;
+}
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
   .modal-content {
