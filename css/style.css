@@ -6,69 +6,52 @@
 html {
   scroll-behavior: smooth;
 }
-
+/* navigation bar */
 #logo-nav{
   position: fixed;
   width: 100%;
-  transition: 0.3s ease-in-out;
   height: 100px;
- background-color: #fff;
+  background-color: #fff;
 }
 
-
-}
 nav{
-  width: 100%;
-  overflow: auto;
-  margin:0;
-  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 10vh;
 }
-ul{
-  padding: 0;
-  margin: 0 0 0 150px;
+.nav-links{
+  display: flex;
   list-style: none;
 }
-li{
-  float: left;
+.nav-links li{
+  padding-left: 3rem;
 }
-.logo{
-  position: fixed;
+.nav-links a{
+  text-decoration: none;
+  color: #333;
+  padding-left: 2px;
+  padding-right: 40px;
+  font-family: 'Roboto', sans-serif;
 }
 .logo img{
-  position: absolute;
-  margin-top: 25px;
-  margin-left: 40px;
   width: 200px;
-  position: fixed;
-}
-nav a{
-  width: 100%;
-  display: inline-block;
-  padding: 30px 20px;
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bold;
-  color: #000;
-  position: relative;
-  left: 300px;
-  font-size: 18px;
+  margin: 20px;
 }
 
-nav a:hover{
+.nav-links a:hover{
   background: lightpink;
   transition: 0.5s;
   color: #ffff;
-  margin-top: 20px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding: 20px;
 }
+/* END OF NAVIGATION BAR */
+
+/* SECTION ONE STARTS */
 
 #section-1{
-  width: 100%;
-  height: 86vh;
+  min-height: 100vh;
   background-color: white;
-
- 
 }
 
 .container{
@@ -84,13 +67,13 @@ nav a:hover{
 .title h1{
   font-size: 50px;
   font-family: 'Roboto', sans-serif;
-  padding: 30px;
+  padding: 50px;
   text-align: center;
   margin-top: 100px;
   font-weight: bold;
 }
 .title p{
-  padding: 30px;
+  padding: 60px;
   margin: 0 auto;
   width: 90%;
   text-align: center;
@@ -121,16 +104,21 @@ nav a:hover{
   flex: 1;
 }
 .section-img img{
-  height: 570px;
-  width: 650px;
-  margin-top: 130px;
- margin-bottom: 30px;
+  height: 474px;
+  width: 350px;
+  margin-top: 180px;
+  margin-right: 200px;
+  border-radius: 40px;
+
 }
+/* SECTION ONE ENDS */
+
+/* SECTION TWO STARTS */
 
 #section-2{
   background-color: lightpink;
-  height: 120vh;
-  margin-top: 97px
+  min-height: 100vh;
+
 }
 .title-2 h1{
   color: #ffff;
@@ -148,7 +136,6 @@ nav a:hover{
 }
 
 .serviceOne{
- 
   padding: 20px 20px 90px 20px;
   width: 360px;
 }
@@ -211,11 +198,13 @@ nav a:hover{
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
 }
+/* SECTION TWO ENDS */
+
+/* SECTION THREE STARTS */
 
 #section-3{
   background-color:  #fffafa;
-  height: 120vh;
-  margin-top: 0px
+  min-height: 100vh;
 }
 .title-3 h1{
 color: lightpink;
@@ -294,6 +283,7 @@ color: lightpink;
   cursor: pointer;
   transition: 0.3;
 }
+/* SECTION THREE ENDS */
 
 #myImgSix:hover {opacity: 0.7;}
 .modal{
@@ -363,11 +353,10 @@ color: lightpink;
   cursor: pointer;
 }
 
-
+/* SECTION FOUR STARTS */
 #section-4{
   background-color: #333;
-  height: 100vh;
-  margin-top: 250px;
+  min-height: 100vh;
 }
 .title-4 h1{
   color: #FFFF;
@@ -405,20 +394,9 @@ color: lightpink;
   color: black;
   transition: 0.3s ease-in;
 }
-.logoSection-1 img{
-  width: 700px;
-  height: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-top: 100px;
- 
-}
-.logoApp{
-  margin-bottom: 50px;
-}
+/* SECTION FOUR ENDS */
 
+/* FOOTER */
 #myFooter{
   background-color: lightpink;
   height: 70px;
@@ -432,9 +410,23 @@ color: lightpink;
   padding-top: 10px;
 }
 
-/*FORM */
+/* SECTION FOUR ENDS */
 
 
+/*BOOKING FORM */
+.logoSection-1 img{
+  width: 700px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 100px;
+ 
+}
+.logoApp{
+  margin-bottom: 50px;
+}
 .form-style-5{
 	max-width: 500px;
 	padding: 10px 20px;
@@ -555,9 +547,183 @@ color: lightpink;
 #btnForm{
   cursor: pointer;
 }
+/*BOOKING FORM ENDS */
+
+
+
+/* MEDIA QUERIES */
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
   .modal-content {
     width: 100%;
+  }
+  #section-1{
+    min-height: 100vh;
+    background-color: white;
+    margin-bottom: 30px;
+  }
+  
+  #logo-nav{
+    height: 140px;
+  }
+  nav{
+    flex-direction: column;
+    min-height: 10vh;
+  }
+  .nav-links li{
+    padding: 1px;
+  
+  }
+  .nav-links a{
+    cursor: pointer;
+    padding: 12px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .title h1{
+    font-size: 40px;
+    margin-top: 140px;
+  }
+  .title p{
+    padding: 20px;
+    width: 100%;
+  }
+  .btn {
+    width: 80px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  } 
+  .section-img img{
+    height: 300px;
+    width: 230px;
+  
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+
+  #section-2{
+    min-height: 100vh;
+  
+  }
+  .title-2 h1{
+   padding: 50px 0 30px 0;
+   font-size: 35px;
+   
+  }
+  
+  .container-2 {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .serviceOne{
+    padding: 20px;
+    width: 260px;
+  }
+  .serviceOne img{
+    height: 300px;
+    width: 230px;
+  }
+  
+  .serviceTwo{
+    padding: 20px;
+    width: 260px;
+  }
+  .serviceTwo img{
+    height: 300px;
+    width: 230px;
+  }
+  
+  .serviceThree{
+    padding: 20px;
+    width: 260px;
+  }
+  .serviceThree img{
+    height: 300px;
+    width: 230px;
+  }
+  #section-3{
+    background-color:  #fffafa;
+    min-height: 100vh;
+  }
+  .title-3 h1{
+    padding: 50px 0 30px 0;
+    font-size: 35px;
+  }
+  
+  .container-3{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+  #section-4{
+    background-color: #333;
+    min-height: 70vh;
+  }
+  .title-4 h1{
+    padding: 50px 0 30px 0;
+   font-size: 35px;
+  }
+  
+  .logoSection img{
+    height: 110px;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+  
+  .btnBooking{
+    position: absolute;
+    left: 40%;
+    width: 80px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    
+  }
+  .btnBooking:hover{
+    background-color: #FFFF;
+    color: black;
+    transition: 0.3s ease-in;
+  }
+  .logoSection-1 img{
+    width: 700px;
+    height: 200px;
+    display: block;
+    width: 50%;
+    margin-top: 100px;
+  }
+  
+  #myFooter{
+    background-color: lightpink;
+    height: 63px;
+    margin: 0;
+  }
+  #myFooter p{
+    font-size: 13px;
+  }
+  .logoSection-1 img{
+    height: 110px;
+    display: block;
+    margin-top: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+   
   }
 }
