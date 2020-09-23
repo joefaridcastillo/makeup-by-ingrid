@@ -229,26 +229,27 @@ color: lightpink;
 #myImg  {
   border-radius: 5px;
   cursor: pointer;
-  transition: 0.3;
+  transition: 0.3s;
 }
 
 #myImg:hover {
   opacity: 0.7;
-  
 }
 
 #myImgOne {
   border-radius: 5px;
   cursor: pointer;
-  transition: 0.3;
+  transition: 0.3s;
 }
 
-#myImgOne:hover {opacity: 0.7;}
+#myImgOne:hover {
+  opacity: 0.7;
+}
 
 #myImgTwo {
   border-radius: 5px;
   cursor: pointer;
-  transition: 0.3;
+  transition: 0.3s;
 }
 
 #myImgTwo:hover {opacity: 0.7;}
@@ -256,7 +257,7 @@ color: lightpink;
 #myImgThree {
   border-radius: 5px;
   cursor: pointer;
-  transition: 0.3;
+  transition: 0.3s;
 }
 
 #myImgThree:hover {opacity: 0.7;}
@@ -264,7 +265,7 @@ color: lightpink;
 #myImgFour {
   border-radius: 5px;
   cursor: pointer;
-  transition: 0.3;
+  transition: 0.3s;
 }
 
 #myImgFour:hover {opacity: 0.7;}
@@ -272,7 +273,7 @@ color: lightpink;
 #myImgFive {
   border-radius: 5px;
   cursor: pointer;
-  transition: 0.3;
+  transition: 0.3s;
 }
 
 #myImgFive:hover {opacity: 0.7;}
@@ -281,10 +282,8 @@ color: lightpink;
 #myImgSix {
   border-radius: 5px;
   cursor: pointer;
-  transition: 0.3;
+  transition: 0.3s;
 }
-/* SECTION THREE ENDS */
-
 #myImgSix:hover {opacity: 0.7;}
 .modal{
   display: none; /* Hidden by default */

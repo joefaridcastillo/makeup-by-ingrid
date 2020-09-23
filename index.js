@@ -1,11 +1,7 @@
-const btn = document.querySelector('.btn');
 
 
-btn.addEventListener('click',e =>{
-  e.preventDefault();
-  btn.style.backgroundColor = 'black';
-  btn.style.color = 'white';
-});
+
+
 
 var modal = document.getElementById("myModal");
 
@@ -18,43 +14,44 @@ var imgFour = document.getElementById("myImgFour");
 var imgFive = document.getElementById("myImgFive");
 var imgSix = document.getElementById("myImgSix");
 
+
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
   captionText.innerHTML = this.alt;
-}
+};
 imgOne.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
   captionText.innerHTML = this.alt;
-}
+};
 imgTwo.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
   captionText.innerHTML = this.alt;
-}
+};
 imgThree.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
   captionText.innerHTML = this.alt;
-}
+};
 imgFour.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
   captionText.innerHTML = this.alt;
-}
+};
 imgFive.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
   captionText.innerHTML = this.alt;
-}
+};
 imgSix.onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
   captionText.innerHTML = this.alt;
-}
+};
 
 
 
@@ -64,4 +61,4 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() { 
   modal.style.display = "none";
-}
+};
