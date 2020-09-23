@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="/css/style.css">
   <link href="/css/fa/css/all.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet"> 
-  
+  <link rel="shortcut icon" type="image/png" href="/img/logo.png">
   <title>Ingrid Aguilar - Makeup Artist</title>
 </head>
 <body>
@@ -35,7 +35,7 @@
 
   <section id="form">
     <div class="form-style-5">
-      <form>
+      <form action="POST" data-netlify="true">
       <fieldset>
       <legend><span class="number">1</span> Personal Info</legend>
       <input type="text" name="field1" placeholder="Your Name *">
@@ -70,6 +70,9 @@
       <label for="comments">Comments/Details *</label>
       <textarea name="field3" placeholder="Comments" rows="4" cols="50"></textarea>
       </fieldset>
+      <div class="field">
+        <div data-netlify-recaptcha="true"></div>
+      </div>
       <input type="submit" id="btnForm" value="Submit" />
       </form>
       </div>
