@@ -38,16 +38,9 @@
       <form action="POST" data-netlify="true">
       <fieldset>
       <legend><span class="number">1</span> Personal Info</legend>
-      <input type="text" name="field1" placeholder="Your Name *">
-      <input type="email" name="field2" placeholder="Your Email *">
-      <input type="number" name="field3" placeholder="Your phone number *">
-      <div class="radioGroup">
-      <label for="text">Is it ok to text you?</label><br>
-      <input type="radio" name="answer" value="Yes" id="radioYes">
-      <label for="radioYes">Yes</label><br>
-      <input type="radio" name="answer" value="No" id="radioNo">
-      <label for="radioNo">No</label>
-      </div>
+      <input type="text" name="name" placeholder="Your Name *">
+      <input type="email" name="email" placeholder="Your Email *">
+      <input type="number" name="number" placeholder="Your phone number *">
       <label id="about" for="about">How did you hear about us</label>
       <select id="job" name="field4">
         <option value="google">Google</option>
@@ -59,16 +52,15 @@
       <fieldset>
       <legend><span class="number">2</span> Additional Info</legend>
       <label id="serviceQuestion" for="service">What service are you interested in? *</label>
-      <select id="servicesSelection" name="field5">
+      <select id="servicesSelection" name="Services">
         <option value="special">Special occasion</option>
         <option value="hair">Hair</option>
         <option value="bridal">Bridal</option>
-        <option value="friend">Friend</option>
       </select>  
       <label for="date">Date services are needed</label>  
       <input type="date"> 
       <label for="comments">Comments/Details *</label>
-      <textarea name="field3" placeholder="Comments" rows="4" cols="50"></textarea>
+      <textarea name="comments" placeholder="Comments" rows="4" cols="50"></textarea>
       </fieldset>
       <div class="field">
         <div data-netlify-recaptcha="true"></div>
