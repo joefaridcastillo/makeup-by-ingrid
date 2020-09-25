@@ -90,10 +90,13 @@ nav{
   text-align: center;
   border: none;
   margin-top: -50px;
-  margin-left: 15px;
+  margin-left: 40px;
 }
-
-
+.btnBooking2:hover{
+  background-color: #000;
+  color:white;
+  transition: 0.3s ease-in;
+}
 
 .section-img{
   display: flex;
@@ -374,25 +377,6 @@ color: lightpink;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
-.btnBooking2{
-  width: 100px;
-  height: 50px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-  background-color: lightpink;
-  border-radius: 10px;
-  border: none;
-  text-align: center;
-  position: absolute;
-  right: 850px;
-  top: 600px;
-  cursor: pointer;
-}
-.btnBooking2:hover{
-  background-color: #000;
-  color:white;
-  transition: 0.3s ease-in;
 }
 
 .btnBooking{
@@ -698,13 +682,6 @@ color: lightpink;
     margin-right: auto;
     width: 60%;
   }
-  .btnBooking2 {
-    width: 100px;
-    height: 50px;
-    margin-top: 200px;
-    margin-right: 100px;
-   
-  }
   
   .btnBooking{
     left: 48%;
@@ -714,16 +691,13 @@ color: lightpink;
     font-weight: bold;
     
   }
-  .btnBooking2:hover{
-    background-color: #000;
-    color:white;
-    transition: 0.3s ease-in;
-  }
   .btnBooking:hover{
     background-color: #FFFF;
     color: black;
     transition: 0.3s ease-in;
   }
+
+
   .logoSection-1 img{
     width: 700px;
     height: 200px;
@@ -773,15 +747,16 @@ color: lightpink;
       height: 40px;
       font-size: 12px;
       font-weight: bold;
-      
+
     }
-    .btnBooking2{
-      position: fixed;
+    .btnBooking2 {
+      position: relative;
+      top: 380px;
+      left: 105px;
       width: 80px;
       height: 40px;
+      cursor: pointer;
       font-size: 12px;
-      font-weight: bold;
-
     }
     
     #myFooter{
