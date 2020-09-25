@@ -78,8 +78,9 @@ nav{
   width: 90%;
   text-align: center;
   line-height: 30px;
+  font-family: 'Roboto', sans-serif;
 }
-.btn {
+.btnBooking2 {
   width: 100px;
   height: 50px;
   font-family: 'Roboto', sans-serif;
@@ -87,11 +88,10 @@ nav{
   background-color: lightpink;
   border-radius: 10px;
   text-align: center;
-  margin: 0 auto;
   border: none;
 }
 
-.btn:hover{
+.btnBooking2{
   color: white;
   transition: 0.5s;
   cursor: pointer;
@@ -616,13 +616,7 @@ color: lightpink;
     padding: 20px;
     width: 100%;
   }
-  .btn {
-    width: 80px;
-    height: 40px;
-    font-size: 12px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  } 
+
   .section-img img{
     height: 300px;
     width: 230px;
@@ -704,18 +698,15 @@ color: lightpink;
     margin-right: auto;
     width: 60%;
   }
-  .btnBooking2{
-    position: absolute;
-    left: 41%;
-    top: 830px;
-    width: 80px;
-    height: 40px;
-    font-size: 12px;
-    font-weight: bold;
+  .btnBooking2 {
+    width: 100px;
+    height: 50px;
+    margin-top: 200px;
+    margin-right: 100px;
+   
   }
   
   .btnBooking{
-    position: absolute;
     left: 48%;
     width: 80px;
     height: 40px;
