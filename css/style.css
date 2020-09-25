@@ -93,15 +93,7 @@ nav{
   margin-left: 15px;
 }
 
-<<<<<<< HEAD
-.btnBooking2:hover{
-=======
-.btnBooking2{
->>>>>>> production
-  color: white;
-  transition: 0.5s;
-  cursor: pointer;
-}
+
 
 .section-img{
   display: flex;
