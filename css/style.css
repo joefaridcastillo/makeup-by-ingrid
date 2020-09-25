@@ -79,7 +79,7 @@ nav{
   text-align: center;
   line-height: 30px;
 }
-.btn {
+.btnBooking2 {
   width: 100px;
   height: 50px;
   font-family: 'Roboto', sans-serif;
@@ -89,9 +89,11 @@ nav{
   text-align: center;
   margin: 0 auto;
   border: none;
+  margin-top: -50px;
+  margin-left: 15px;
 }
 
-.btn:hover{
+.btnBooking2:hover{
   color: white;
   transition: 0.5s;
   cursor: pointer;
@@ -142,6 +144,7 @@ nav{
 .serviceOne img{
   height: 400px;
   width: 320px;
+  border-radius: 10px;
 }
 .serviceOne h1{
   text-align: center;
@@ -164,6 +167,7 @@ nav{
 .serviceTwo img{
   height: 400px;
   width: 320px;
+  border-radius: 10px;
 }
 
 .serviceTwo h1{
@@ -185,6 +189,7 @@ nav{
 .serviceThree img{
   height: 400px;
   width: 320px;
+  border-radius: 10px;
 }
 .serviceThree h1{
   text-align: center;
@@ -784,13 +789,12 @@ color: lightpink;
       
     }
     .btnBooking2{
-      position: absolute;
-      left: 37%;
-      top: 840px;
+      position: fixed;
       width: 80px;
       height: 40px;
       font-size: 12px;
       font-weight: bold;
+
     }
     
     #myFooter{
@@ -803,13 +807,12 @@ color: lightpink;
       font-size: 13px;
     }
     .btnBooking{
-      position: absolute;
       left: 38%;
       width: 80px;
       height: 40px;
       font-size: 12px;
       font-weight: bold;
-      
+      position: absolute;
     }
     #section-4{
       background-color: #333;
