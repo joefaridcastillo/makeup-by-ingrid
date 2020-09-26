@@ -91,6 +91,7 @@ nav{
   border: none;
   margin-top: -50px;
   margin-left: 300px;
+  cursor: pointer;
 }
 .btnBooking2:hover{
   background-color: #000;
@@ -282,7 +283,11 @@ color: lightpink;
   transition: 0.3s;
 }
 
-#myImgFive:hover {opacity: 0.7;}
+#myImgFive:hover {
+  opacity: 0.7;
+ 
+}
+
 
 
 #myImgSix {
@@ -292,6 +297,7 @@ color: lightpink;
 }
 #myImgSix:hover {opacity: 0.7;}
 .modal{
+ 
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
