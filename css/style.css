@@ -605,6 +605,7 @@ color: lightpink;
     .title p{
       padding: 20px;
       width: 100%;
+      font-family: 'Roboto', sans-serif;
     }
   
     .section-img img{
@@ -703,7 +704,6 @@ color: lightpink;
       transition: 0.3s ease-in;
     }
   
-  
     .logoSection-1 img{
       width: 700px;
       height: 200px;
@@ -736,16 +736,16 @@ color: lightpink;
       height: 40px;
       font-size: 12px;
       font-weight: bold;
-
+      font-family: 'Roboto', sans-serif;
     }
     .btnBooking2 {
-      position: relative;
-      top: 380px;
-      left: 125px;
+      top: 300px;
+      left: 155px;
       width: 80px;
       height: 40px;
       cursor: pointer;
       font-size: 12px;
+      font-family: 'Roboto', sans-serif;
     }
     
     #myFooter{
@@ -764,6 +764,7 @@ color: lightpink;
       font-size: 12px;
       font-weight: bold;
       position: absolute;
+      font-family: 'Roboto', sans-serif;
     }
     #section-4{
       background-color: #333;
