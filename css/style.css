@@ -556,174 +556,6 @@ color: lightpink;
 
 /* MEDIA QUERIES */
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
-  #section-1{
-    min-height: 100vh;
-    background-color: white;
-    margin-bottom: 100px;
-  }
-  
-  #logo-nav{
-    height: 140px;
-  }
-  nav{
-    flex-direction: column;
-    min-height: 10vh;
-  }
-  .nav-links li{
-    padding: 1px;
-  
-  }
-  .nav-links a{
-    cursor: pointer;
-    padding: 12px;
-  }
-  .container{
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .title{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-  }
-  .title h1{
-    font-size: 40px;
-    margin-top: 140px;
-  }
-  .title p{
-    padding: 20px;
-    width: 100%;
-  }
-
-  .section-img img{
-    height: 300px;
-    width: 230px;
-    border-radius: 10px;
-    margin: 0 auto;
-  }
-
-  #section-2{
-    min-height: 100vh;
-  
-  }
-  .title-2 h1{
-   padding: 50px 0 30px 0;
-   font-size: 35px;
-   
-  }
-  
-  .container-2 {
-    display: flex;
-    flex-wrap:wrap;
-    align-items: center;
-    justify-content: space-around;
-  }
-  
-  .serviceOne{
-    padding: 20px;
-    width: 260px;
-  }
-  .serviceOne img{
-    height: 300px;
-    width: 230px;
-  }
-  
-  .serviceTwo{
-    padding: 20px;
-    width: 260px;
-  }
-  .serviceTwo img{
-    height: 300px;
-    width: 230px;
-  }
-  
-  .serviceThree{
-    padding: 20px;
-    width: 260px;
-  }
-  .serviceThree img{
-    height: 300px;
-    width: 230px;
-  }
-  #section-3{
-    background-color:  #fffafa;
-    min-height: 100vh;
-  }
-  .title-3 h1{
-    padding: 50px 0 30px 0;
-    font-size: 35px;
-  }
-  
-  .container-3{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-  }
-  #section-4{
-    background-color: #333;
-    min-height: 80vh;
-  }
-  .title-4 h1{
-    padding: 50px 0 30px 0;
-   font-size: 35px;
-  }
-  
-  .logoSection img{
-    height: 110px;
-    display: block;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-  }
-  
-  .btnBooking{
-    left: 48%;
-    width: 80px;
-    height: 40px;
-    font-size: 12px;
-    font-weight: bold;
-    
-  }
-  .btnBooking:hover{
-    background-color: #FFFF;
-    color: black;
-    transition: 0.3s ease-in;
-  }
-
-
-  .logoSection-1 img{
-    width: 700px;
-    height: 200px;
-    display: block;
-    width: 50%;
-    margin-top: 100px;
-  }
-  
-  #myFooter{
-    background-color: lightpink;
-    height: 79px;
-    padding: 10px;
-  }
-  #myFooter p{
-    font-size: 13px;
-  }
-  .logoSection-1 img{
-    height: 110px;
-    display: block;
-    margin-top: 160px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-   
-  }
-}
 @media only screen
 
   and (min-device-width: 375px)
@@ -731,6 +563,163 @@ color: lightpink;
   and (max-device-width: 812px)
 
   and (-webkit-min-device-pixel-ratio: 3) {
+    .modal-content {
+      width: 100%;
+    }
+    #section-1{
+      min-height: 100vh;
+      background-color: white;
+      margin-bottom: 100px;
+    }
+    
+    #logo-nav{
+      height: 140px;
+    }
+    nav{
+      flex-direction: column;
+      min-height: 10vh;
+    }
+    .nav-links li{
+      padding: 1px;
+    
+    }
+    .nav-links a{
+      cursor: pointer;
+      padding: 12px;
+    }
+    .container{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .title{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .title h1{
+      font-size: 40px;
+      margin-top: 140px;
+    }
+    .title p{
+      padding: 20px;
+      width: 100%;
+    }
+  
+    .section-img img{
+      height: 300px;
+      width: 230px;
+      border-radius: 10px;
+      margin: 0 auto;
+    }
+  
+    #section-2{
+      min-height: 100vh;
+    
+    }
+    .title-2 h1{
+     padding: 50px 0 30px 0;
+     font-size: 35px;
+     
+    }
+    
+    .container-2 {
+      display: flex;
+      flex-wrap:wrap;
+      align-items: center;
+      justify-content: space-around;
+    }
+    
+    .serviceOne{
+      padding: 20px;
+      width: 260px;
+    }
+    .serviceOne img{
+      height: 300px;
+      width: 230px;
+    }
+    
+    .serviceTwo{
+      padding: 20px;
+      width: 260px;
+    }
+    .serviceTwo img{
+      height: 300px;
+      width: 230px;
+    }
+    
+    .serviceThree{
+      padding: 20px;
+      width: 260px;
+    }
+    .serviceThree img{
+      height: 300px;
+      width: 230px;
+    }
+    #section-3{
+      background-color:  #fffafa;
+      min-height: 100vh;
+    }
+    .title-3 h1{
+      padding: 50px 0 30px 0;
+      font-size: 35px;
+    }
+    
+    .container-3{
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: center;
+    }
+    #section-4{
+      background-color: #333;
+      min-height: 80vh;
+    }
+    .title-4 h1{
+      padding: 50px 0 30px 0;
+     font-size: 35px;
+    }
+    
+    .logoSection img{
+      height: 110px;
+      display: block;
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+    }
+    
+    .btnBooking{
+      left: 48%;
+      width: 80px;
+      height: 40px;
+      font-size: 12px;
+      font-weight: bold;
+      
+    }
+    .btnBooking:hover{
+      background-color: #FFFF;
+      color: black;
+      transition: 0.3s ease-in;
+    }
+  
+  
+    .logoSection-1 img{
+      width: 700px;
+      height: 200px;
+      display: block;
+      width: 50%;
+      margin-top: 100px;
+    }
+    .logoSection-1 img{
+      height: 110px;
+      display: block;
+      margin-top: 160px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+     
+    }
 
     .nav-links a{
       cursor: pointer;
