@@ -32,7 +32,7 @@ nav{
   color: #333;
   padding-left: 2px;
   padding-right: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
 }
 .logo img{
   width: 200px;
@@ -66,7 +66,7 @@ nav{
 }
 .title h1{
   font-size: 50px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
   padding: 50px;
   text-align: center;
   margin-top: 100px;
@@ -78,19 +78,19 @@ nav{
   width: 90%;
   text-align: center;
   line-height: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
 }
 .btnBooking2 {
   width: 100px;
   height: 50px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
   font-size: 15px;
   background-color: lightpink;
   border-radius: 10px;
   text-align: center;
   border: none;
   margin-top: -50px;
-  margin-left: 40px;
+  margin-left: 300px;
 }
 .btnBooking2:hover{
   background-color: #000;
@@ -147,8 +147,8 @@ nav{
 }
 .serviceOne h1{
   text-align: center;
-  padding-top: 10px;
-  font-family: 'Roboto', sans-serif;
+  padding-top: 15px;
+  font-family: 'Roboto', sans-serif !important;
   font-weight: bold;
 }
 .serviceOne p{
@@ -156,7 +156,7 @@ nav{
   line-height: 25px;
   font-size: 14px;
   font-family: fantasy;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
 }
 .serviceTwo{
  
@@ -171,14 +171,15 @@ nav{
 
 .serviceTwo h1{
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  padding-top: 15px;
+  font-family: 'Roboto', sans-serif !important;
   font-weight: bold;
 }
 .serviceTwo p{
   text-align: center;
   line-height: 25px;
   font-size: 14px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
 }
 .serviceThree{
   
@@ -192,7 +193,8 @@ nav{
 }
 .serviceThree h1{
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  padding-top: 15px;
+  font-family: 'Roboto', sans-serif !important;
   font-weight: bold;
 }
 
@@ -200,7 +202,7 @@ nav{
   text-align: center;
   line-height: 25px;
   font-size: 14px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
 }
 /* SECTION TWO ENDS */
 
@@ -215,7 +217,7 @@ color: lightpink;
  padding: 100px 0 60px 0;
  font-size: 50px;
  text-align: center;
- font-family: 'Roboto', sans-serif;
+ font-family: 'Roboto', sans-serif !important;
  font-weight: bold;
 }
 
@@ -366,7 +368,7 @@ color: lightpink;
  padding: 100px 0 60px 0;
  font-size: 50px;
  text-align: center;
- font-family: 'Roboto', sans-serif;
+ font-family: 'Roboto', sans-serif !important;
  font-weight: bold;
 }
 
@@ -382,7 +384,7 @@ color: lightpink;
 .btnBooking{
   width: 100px;
   height: 50px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
   font-size: 15px;
   background-color: lightpink;
   border-radius: 10px;
@@ -407,7 +409,7 @@ color: lightpink;
 }
 #myFooter p{
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
   font-weight: bold;
   font-size: 18px;
   padding-top: 10px;
@@ -438,7 +440,7 @@ color: lightpink;
 	padding: 20px;
 	background: #f4f7f8;
 	border-radius: 8px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
 }
 .form-style-5 fieldset{
 	border: none;
@@ -461,7 +463,7 @@ color: lightpink;
 .form-style-5 input[type="url"],
 .form-style-5 textarea,
 .form-style-5 select {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif !important;
 	background: rgba(255,255,255,.1);
 	border: none;
 	border-radius: 4px;
@@ -605,7 +607,7 @@ color: lightpink;
     .title p{
       padding: 20px;
       width: 100%;
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Roboto', sans-serif !important;
     }
   
     .section-img img{
@@ -736,7 +738,7 @@ color: lightpink;
       height: 40px;
       font-size: 12px;
       font-weight: bold;
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Roboto', sans-serif !important;
     }
     .btnBooking2 {
       top: 300px;
@@ -745,7 +747,7 @@ color: lightpink;
       height: 40px;
       cursor: pointer;
       font-size: 12px;
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Roboto', sans-serif !important;
     }
     
     #myFooter{
@@ -764,7 +766,7 @@ color: lightpink;
       font-size: 12px;
       font-weight: bold;
       position: absolute;
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Roboto', sans-serif !important;
     }
     #section-4{
       background-color: #333;
