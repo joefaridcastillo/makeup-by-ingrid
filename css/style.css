@@ -616,9 +616,6 @@ color: lightpink;
       width: 100%;
       font-family: 'Roboto', sans-serif !important;
     }
-    .btnBooking2 {
-      margin-left: 150px;
-    }
   
     .section-img img{
       height: 300px;
@@ -752,8 +749,8 @@ color: lightpink;
       font-family: 'Roboto', sans-serif !important;
     }
     .btnBooking2 {
-      top: 300px;
-      left: 155px;
+      
+     margin-left: 170px;
       width: 80px;
       height: 40px;
       cursor: pointer;
