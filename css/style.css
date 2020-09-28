@@ -51,7 +51,7 @@ nav{
 /* SECTION ONE STARTS */
 
 #section-1{
-  min-height: 100vh;
+  min-height: 90vh;
   background-color: white;
 }
 
@@ -67,37 +67,48 @@ nav{
 }
 .title h1{
   font-size: 50px;
+  width: 70%;
   font-family: 'Roboto', sans-serif !important;
-  padding: 50px;
-  text-align: center;
+  padding: 60px 0 30px 130px;
   margin-top: 100px;
   font-weight: bold;
 }
 .title p{
-  padding: 60px;
-  margin: 0 auto;
-  width: 90%;
+  padding: 5px 40px 30px 90px;
+  width: 70%;
+  font-size: 18px;
   text-align: center;
   line-height: 30px;
   font-family: 'Roboto', sans-serif !important;
 }
 .btnBooking2 {
-  width: 100px;
-  height: 50px;
-  font-family: 'Roboto', sans-serif !important;
-  font-size: 15px;
   background-color: lightpink;
-  border-radius: 10px;
-  text-align: center;
-  border: none;
-  margin-top: -50px;
-  margin-left: 300px;
+  width: 90px;
+   height: 50px;
   cursor: pointer;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif !important;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 160px;
+  margin-left: -300px;
+  border: none;
+  border-radius: 10px;
+ align-items: center;
+ justify-content: center;
+}
+.btnBooking2 a{
+  text-decoration: none;
+  color: black;
 }
 .btnBooking2:hover{
   background-color: #000;
   color:white;
   transition: 0.3s ease-in;
+}
+.btnBooking2 a:hover{
+  color:white;
+  background-color: #000;
 }
 
 .section-img{
@@ -109,8 +120,8 @@ nav{
 .section-img img{
   height: 474px;
   width: 350px;
-  margin-top: 180px;
-  margin-right: 200px;
+  margin-top: 150px;
+  margin-right:120px;
   border-radius: 40px;
 
 }
@@ -594,9 +605,211 @@ color: lightpink;
       padding: 1px;
     
     }
+    
+    .container{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .title{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .title h1{
+      font-size: 40px;
+      margin-top: 140px;
+    }
+    .title p{
+      padding: 20px;
+      width: 100%;
+      font-family: 'Roboto', sans-serif !important;
+    }
+  
+    .section-img img{
+      flex: 1;
+      height: 300px;
+      width: 230px;
+      border-radius: 10px;
+      margin: 0 auto;
+      margin-bottom: 50px;
+    }
+    .btnBooking2 {
+      display:none;
+       margin-left: 170px;
+       width: 80px;
+       height: 40px;
+       cursor: pointer;
+       font-size: 12px;
+       font-family: 'Roboto', sans-serif !important;
+     }
+  
+    #section-2{
+      min-height: 100vh;
+    
+    }
+    .title-2 h1{
+     padding: 50px 0 30px 0;
+     font-size: 35px;
+     
+    }
+    
+    .container-2 {
+      display: flex;
+      flex-wrap:wrap;
+      align-items: center;
+      justify-content: space-around;
+    }
+    
+    .serviceOne{
+      padding: 20px;
+      width: 260px;
+    }
+    .serviceOne img{
+      height: 300px;
+      width: 230px;
+    }
+    
+    .serviceTwo{
+      padding: 20px;
+      width: 260px;
+    }
+    .serviceTwo img{
+      height: 300px;
+      width: 230px;
+    }
+    
+    .serviceThree{
+      padding: 20px;
+      width: 260px;
+    }
+    .serviceThree img{
+      height: 300px;
+      width: 230px;
+    }
+    #section-3{
+      background-color:  #fffafa;
+      min-height: 100vh;
+    }
+    .title-3 h1{
+      padding: 50px 0 30px 0;
+      font-size: 35px;
+    }
+    
+    .container-3{
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: center;
+    }
+    .title-4 h1{
+      padding: 50px 0 30px 0;
+     font-size: 35px;
+    }
+    
+    .logoSection img{
+      height: 110px;
+      display: block;
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+    }
+    
+    .btnBooking{
+      left: 48%;
+      width: 80px;
+      height: 40px;
+      font-size: 12px;
+      font-weight: bold;
+      
+    }
+    .btnBooking:hover{
+      background-color: #FFFF;
+      color: black;
+      transition: 0.3s ease-in;
+    }
+  
+    .logoSection-1 img{
+      width: 700px;
+      height: 200px;
+      display: block;
+      width: 50%;
+      margin-top: 100px;
+    }
+    .logoSection-1 img{
+      height: 110px;
+      display: block;
+      margin-top: 160px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+     
+    }
+
+    .nav-links a{
+      cursor: pointer;
+      padding: 5px;
+    }
+    .title-4 h1{
+      padding: 50px 0 30px 0;
+     font-size: 30px;
+    }
+    .btnBooking{
+      position: absolute;
+      left: 36%;
+      width: 80px;
+      height: 40px;
+      font-size: 12px;
+      font-family: 'Roboto', sans-serif !important;
+    }
+    
+    #myFooter{
+      background-color: lightpink;
+      min-height: 10vh;
+      margin: 0;
+      padding: 5px;
+    }
+    #myFooter p{
+      font-size: 13px;
+    }
+    
+    #section-4{
+      background-color: #333;
+      min-height: 60vh;
+    }
+
+}
+
+@media only screen
+
+  and (max-width: 764px) {
+   
+    .modal-content {
+      width: 100%;
+    }
+    #section-1{
+      min-height: 100vh;
+      background-color: white;
+      margin-bottom: 100px;
+    }
+    
+    #logo-nav{
+      height: 140px;
+   
+    }
+    nav{
+      flex-direction: column;
+      min-height:10vh;
+    
+    }
+    .nav-links li{
+      padding: 1px;
+    }
     .nav-links a{
       cursor: pointer;
       padding: 12px;
+    
     }
     .container{
       display: flex;
@@ -605,7 +818,7 @@ color: lightpink;
     
     .title{
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       flex-wrap: wrap;
       width: 100%;
     }
@@ -626,6 +839,15 @@ color: lightpink;
       margin: 0 auto;
       margin-bottom: 50px;
     }
+    .btnBooking2 {
+      
+       margin-left: 170px;
+       width: 80px;
+       height: 40px;
+       cursor: pointer;
+       font-size: 12px;
+       font-family: 'Roboto', sans-serif !important;
+     }
   
     #section-2{
       min-height: 100vh;
@@ -782,4 +1004,4 @@ color: lightpink;
       min-height: 60vh;
     }
 
-}
+  }
