@@ -235,6 +235,7 @@ color: lightpink;
   height: 400px;
   width: 320px;
   padding: 20px;
+  border-radius: 10px;
 }
 
 #myImg  {
@@ -258,7 +259,7 @@ color: lightpink;
 }
 
 #myImgTwo {
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -266,7 +267,7 @@ color: lightpink;
 #myImgTwo:hover {opacity: 0.7;}
 
 #myImgThree {
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -274,7 +275,7 @@ color: lightpink;
 #myImgThree:hover {opacity: 0.7;}
 
 #myImgFour {
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -282,7 +283,7 @@ color: lightpink;
 #myImgFour:hover {opacity: 0.7;}
 
 #myImgFive {
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -292,10 +293,8 @@ color: lightpink;
  
 }
 
-
-
 #myImgSix {
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   transition: 0.3s;
 }
