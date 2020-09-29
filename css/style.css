@@ -617,6 +617,7 @@ color: lightpink;
       width: 100%;
     }
     .title h1{
+      width: 400px;
       font-size: 40px;
       margin-top: 140px;
     }
@@ -822,6 +823,7 @@ color: lightpink;
       width: 100%;
     }
     .title h1{
+      width: 400px;
       font-size: 40px;
       margin-top: 140px;
       margin-bottom: 10px;
