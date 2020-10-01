@@ -34,6 +34,7 @@ nav{
   padding-left: 2px;
   padding-right: 40px;
   font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+  font-size: 18px;
 }
 .logo img{
   width: 200px;
@@ -51,7 +52,7 @@ nav{
 /* SECTION ONE STARTS */
 
 #section-1{
-  min-height: 90vh;
+  min-height: 100vh;
   background-color: white;
 }
 
@@ -69,15 +70,15 @@ nav{
   font-size: 50px;
   width: 75%;
   font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
-  
-  padding: 60px 0 30px 110px;
+  padding: 60px 0 0px 110px;
   margin-top: 100px;
   font-weight: bold;
+  text-align: center;
 }
 .title p{
   padding: 5px 40px 30px 130px;
   width: 75%;
-  font-size: 22px;
+  font-size: 18px;
   text-align: center;
   line-height: 30px;
   font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
@@ -92,7 +93,7 @@ nav{
   display: flex;
   flex-wrap: wrap;
   margin-top: 160px;
-  margin-left: -400px;
+  margin-left: -315px;
   border: none;
   border-radius: 10px;
  align-items: center;
@@ -165,7 +166,7 @@ nav{
   padding-top: 15px;
   font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 28px;
 }
 .serviceOne p{
   text-align: center;
@@ -188,7 +189,7 @@ nav{
 .serviceTwo h1{
   text-align: center;
   padding-bottom: 10px;
-  padding-top: 20px;
+  padding-top: 25px;
   font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
 
   font-weight: bold;
