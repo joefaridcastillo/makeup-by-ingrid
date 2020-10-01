@@ -829,7 +829,7 @@ color: lightpink;
     .title p{
       padding: 20px;
       width: 100%;
-      font-family: 'Roboto', sans-serif !important;
+      font-family: 'Roboto', sans-serif; font-weight: 900; font-style: italic;
     }
   
     .section-img img{
