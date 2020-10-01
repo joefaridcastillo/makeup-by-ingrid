@@ -1041,7 +1041,8 @@ color: lightpink;
     }
     #section-4{
       background-color: #333;
-      min-height: 100vh;
+      min-height: 60vh;
+      margin: 0;
     }
     #btnForm{
       background-color: lightpink;
