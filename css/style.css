@@ -33,7 +33,7 @@ nav{
   color: #333;
   padding-left: 2px;
   padding-right: 40px;
-  font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
 }
 .logo img{
   width: 200px;
@@ -68,7 +68,8 @@ nav{
 .title h1{
   font-size: 50px;
   width: 75%;
-  font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+  
   padding: 60px 0 30px 110px;
   margin-top: 100px;
   font-weight: bold;
@@ -79,8 +80,7 @@ nav{
   font-size: 18px;
   text-align: center;
   line-height: 30px;
-  font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
-
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
 }
 .btnBooking2  {
   background-color: lightpink;
@@ -88,7 +88,7 @@ nav{
    height: 50px;
   cursor: pointer;
   font-size: 12px;
-  font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
   display: flex;
   flex-wrap: wrap;
   margin-top: 160px;
@@ -140,7 +140,7 @@ nav{
  padding: 100px 0 60px 0;
  font-size: 50px;
  text-align: center;
- font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+ font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
  font-weight: bold;
 }
 
@@ -163,7 +163,7 @@ nav{
   text-align: center;
   padding-bottom: 10px;
   padding-top: 15px;
-  font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
   font-weight: bold;
 }
 .serviceOne p{
@@ -171,7 +171,8 @@ nav{
   line-height: 25px;
   font-size: 14px;
   font-family: fantasy;
-  font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+
 }
 .serviceTwo{
  
@@ -188,14 +189,16 @@ nav{
   text-align: center;
   padding-bottom: 10px;
   padding-top: 15px;
-  font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+
   font-weight: bold;
 }
 .serviceTwo p{
   text-align: center;
   line-height: 25px;
   font-size: 14px;
-  font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+
 }
 .serviceThree{
   
@@ -211,7 +214,8 @@ nav{
   text-align: center;
   padding-bottom: 10px;
   padding-top: 15px;
-  font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+
   font-weight: bold;
 }
 
@@ -219,7 +223,8 @@ nav{
   text-align: center;
   line-height: 25px;
   font-size: 14px;
-  font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+
 }
 /* SECTION TWO ENDS */
 
@@ -234,7 +239,8 @@ color: lightpink;
  padding: 100px 0 60px 0;
  font-size: 50px;
  text-align: center;
- font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+
  font-weight: bold;
 }
 
@@ -389,7 +395,8 @@ color: lightpink;
  padding: 100px 0 60px 0;
  font-size: 50px;
  text-align: center;
- font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+
  font-weight: bold;
 }
 
@@ -405,7 +412,8 @@ color: lightpink;
 .btnBooking{
   width: 100px;
   height: 50px;
-  font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+
   font-size: 15px;
   background-color: lightpink;
   border-radius: 10px;
@@ -430,7 +438,8 @@ color: lightpink;
 }
 #myFooter p{
   text-align: center;
-  font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+
   font-weight: bold;
   font-size: 18px;
   padding-top: 10px;
@@ -461,7 +470,8 @@ color: lightpink;
 	padding: 20px;
 	background: #f4f7f8;
 	border-radius: 8px;
-  font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+
 }
 .form-style-5 fieldset{
 	border: none;
@@ -484,7 +494,8 @@ color: lightpink;
 .form-style-5 input[type="url"],
 .form-style-5 textarea,
 .form-style-5 select {
-  font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+
 	background: rgba(255,255,255,.1);
 	border: none;
 	border-radius: 4px;
@@ -629,7 +640,8 @@ color: lightpink;
     .title p{
       padding:  20px 20px 90px 20px;;
       width: 100%;
-      font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+    
     }
   
     .section-img img{
@@ -647,7 +659,8 @@ color: lightpink;
        height: 40px;
        cursor: pointer;
        font-size: 12px;
-      font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+    
        
      }
     
@@ -659,7 +672,8 @@ color: lightpink;
     .title-2 h1{
      padding: 50px 0 30px 0;
      font-size: 35px;
-     font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+   
      
     }
     
@@ -769,7 +783,8 @@ color: lightpink;
       width: 80px;
       height: 40px;
       font-size: 12px;
-      font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+    
    
     }
     
@@ -852,7 +867,8 @@ color: lightpink;
     .title p{
       padding: 20px 40px 90px 40px;
       width: 100%;
-      font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+    
       
     }
   
@@ -870,7 +886,8 @@ color: lightpink;
        height: 40px;
        cursor: pointer;
        font-size: 12px;
-       font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+     
       
      }
      
@@ -995,7 +1012,8 @@ color: lightpink;
       width: 80px;
       height: 40px;
       font-size: 12px;
-      font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+    
     
     }
     .btnBooking2 {
@@ -1005,7 +1023,8 @@ color: lightpink;
       height: 40px;
       cursor: pointer;
       font-size: 12px;
-      font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+    
  
     }
     
@@ -1025,7 +1044,8 @@ color: lightpink;
       font-size: 12px;
       font-weight: bold;
       position: absolute;
-      font-family: 'Roboto' sans-serif; font-weight: 900; font-style: italic !important;
+  font-family: 'Roboto' sans-serif; font-weight: 100; font-style: italic;
+    
     
     }
     #section-4{
