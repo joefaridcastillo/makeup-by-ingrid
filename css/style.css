@@ -847,8 +847,8 @@ color: lightpink;
       color: white;
     }
     .logo-submission img{
-      width: auto;
-      height: auto;
+      width: 30vh;
+      height: 10vh;
     }
 
 }
@@ -1093,8 +1093,8 @@ color: lightpink;
       color: white;
     }
     .logo-submission img{
-      width: auto;
-      height: auto;
+      width: 30vh;
+      height: 10vh;
     }
 
   }
