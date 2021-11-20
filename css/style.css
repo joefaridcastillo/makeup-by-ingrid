@@ -588,7 +588,41 @@ color: lightpink;
 }
 /*BOOKING FORM ENDS */
 
-
+/*SUBMISSION PAGE*/
+.container-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-submission p{
+  margin-top:10px;
+  font-size: 22px;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  line-height: 40px;
+}
+.logo-submission img{
+  margin-top: 200px;
+  width: 60vh;
+  height: 20vh;
+}
+.link-page a{
+  margin-top: 10px;
+  text-decoration: none;
+  color:#000;
+  font-family: sans-serif;
+  font-size: 22px;
+  color: pink;
+}
+.link-page a:hover{
+  background-color: #000;
+  color:#FFF;
+  padding: 10px;
+  border-radius: 10px;
+ 
+}
 
 /* MEDIA QUERIES */
 /* 100% Image Width on Smaller Screens */
