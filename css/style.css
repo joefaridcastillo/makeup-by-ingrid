@@ -846,6 +846,10 @@ color: lightpink;
       background-color: black;
       color: white;
     }
+    .logo-submission img{
+      width: auto;
+      height: auto;
+    }
 
 }
 
@@ -1087,6 +1091,10 @@ color: lightpink;
     #btnForm:hover {
       background-color: black;
       color: white;
+    }
+    .logo-submission img{
+      width: auto;
+      height: auto;
     }
 
   }
