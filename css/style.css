@@ -877,10 +877,12 @@ color: lightpink;
     }
     .nav-links li{
       padding: 1px;
+      
     }
     .nav-links a{
       cursor: pointer;
       padding: 12px;
+     
     
     }
     .container{
